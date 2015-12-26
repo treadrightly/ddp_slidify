@@ -1,1 +1,149 @@
-The rain in Spain stays mainly in the plain.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capacity Planning Using Air Traffic Prediction</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Capacity Planning Using Air Traffic Prediction">
+  <meta name="author" content="treadrightly">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Capacity Planning Using Air Traffic Prediction</h1>
+    <h2></h2>
+    <p>treadrightly<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Business Case For Predicting Air Traffic</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>International airline passengers are continuously increasing</li>
+<li>Costs associated with international travel are also increasing - e.g., airplanes, personnel, supplies etc.</li>
+<li>Airline traffic follows seasonal patterns and trends</li>
+<li>Modeling this seasonality allows better cost management</li>
+<li>Variable costs such as personnel, perishable food products etc. can be reduced at periods of low activity</li>
+<li>We need a top-of-the-line tool to help us predict future air traffic that incorporates previously observed trend and seasonality</li>
+<li>The ability to predict future traffic will help in capacity planning and improve the company&#39;s bottom line</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Supporting Information - Box &amp; Jenkins Airline Data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Application For Predicting Air Passengers</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><a href="https://treadrightly.shinyapps.io/assignment_01">Air Traffic Prediction Tool</a></li>
+<li>Fits a HoltWinters model to the time series data collected by Box &amp; Jenkins</li>
+<li>Allows the user to choose the number of periods to be forecasted</li>
+<li>Also allows the user to choose the confidence level of the forecast</li>
+<li>The dimensions of the output graph can be changed to allow the graph to be used in other presentations</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Future Enhancements</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The first iteration of the prediction tool uses univariate time series modeling</li>
+<li>Future iterations will be multivariate, including expected economic trends and other factors affecting airline traffic</li>
+<li>Exporting graphs to files directly will be supported by future versions the application</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Business Case For Predicting Air Traffic'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Supporting Information - Box &amp; Jenkins Airline Data'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Application For Predicting Air Passengers'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Future Enhancements'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
